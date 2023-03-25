@@ -1,14 +1,17 @@
 baseURL = "/"
 title = "Goldydocs"
+theme = "docsy"
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+contentDir = "content/cn"
+defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
 enableRobotsTXT = true
+
+navbar_logo = false
 
 # Will give values to .Lastmod etc.
 enableGitInfo = true
@@ -60,26 +63,19 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
+title = "Chen Jun's Blog"
 description = "A Docsy example site"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-[languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
 
-[languages.fa]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-languageName ="فارسی"
-contentDir = "content/fa"
+[languages.zh-cn]
+title = "陈军的博客"
+description ="陈军的博客"
+languageName = "中文"
+contentDir = "content/cn"
 time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
+time_format_blog = "2006-01-02"
 
 [markup]
   [markup.goldmark]
@@ -225,3 +221,19 @@ enable = false
   [[module.imports]]
     path = "github.com/google/docsy/dependencies"
     disable = false    
+
+[params.mermaid]
+  enable = true
+
+[params.plantuml]
+  enable = true
+  theme = "default"
+
+  # Set url to plantuml server
+  # default is http://www.plantuml.com/plantuml/svg/
+  svg_image_url = "https://www.plantuml.com/plantuml/svg/"
+
+  # By default the plantuml implementation uses <img /> tags to display UML diagrams.
+  # When svg is set to true, diagrams are displayed using <svg /> tags, maintaining functionality like links e.g.
+  # default = false
+  svg = true

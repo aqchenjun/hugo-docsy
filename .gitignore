@@ -1,5 +1,8 @@
 /public
 resources/
 node_modules/
+themes/
+layouts/
+i18n/
 package-lock.json
 .hugo_build.lock
