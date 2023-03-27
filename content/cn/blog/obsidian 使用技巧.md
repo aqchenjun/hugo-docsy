@@ -1,13 +1,11 @@
 ---
-title: obsidian 使用技巧
-tags:
-  - 综合
-date: '2023-03-12 17:39'
-published: 'true'
-abbrlink: 1f2d459f
-source:
-cover:
+source: 
+title: Obsidian 使用技巧
+tags: [ 综合]
+date: 2023-03-12
+lastmod: 2023-03-27 
 thumbnail: https://s1.vika.cn/space/2023/03/12/6a734b8314f54be7a542238033c99e92
+published: "true"
 ---
 
 >注意事项
@@ -42,16 +40,15 @@ print('hello world')
 #### 2.2.1 有标题
 >[!multi-column]
 >
->>[!note]+ 注意
->>这是第一列
->
->>[!warning]+ 警告
->>这是第二列
->
->>[!info]+ 通知
->>这是第三列
+>{{% alert title=注意 color='success' %}}这是第一列
 
-#### 2.2.2 隐藏标题
+[!warning]+ 警告
+这是第二列
+
+[!info]+ 通知
+这是第三列
+
+ {{% /alert %}}#### 2.2.2 隐藏标题
 >[!multi-column]
 >
 >>[!blank-container]
@@ -88,7 +85,7 @@ Shell binary location 选项设置cmd文件的路径，一般是C:\Windows\Syste
 >>由于本文只需要得到当前文件的绝对路径，因此第二个参数省略。
 
 ### 3.3 用法
->建立python 脚本文件，文件名暂按上图实例中的名，内容包括对需要的Obsidian 当前文件的参数进行处理。将该文件保存到[脚本路径](#3-2-2-设置脚本路径)。
+>建立python 脚本文件，文件名暂按上图实例中的名，内容包括对需要的Obsidian 当前文件的参数进行处理。将该文件保存到[脚本路径](#3.2.2-设置脚本路径)。
 代码如下：
 ```python
 #!/usr/bin/env python3
@@ -110,12 +107,12 @@ with open(os.path.join(posts_path,filename[0]),'w',encoding='utf-8') as f:
     # 将修改后的内容写入文件
     f.write(content)
 ```
->按照[3-2-4 用户的自定义函数](#3-2-4-用户的自定义函数)的介绍，新增自定义函数。
+>按照[3.2.4 用户的自定义函数](#3.2.4-用户的自定义函数)的介绍，新增自定义函数。
 
 ^2d2d1d
 
 
->在[3-2-1 设置模板路径](#3-2-1-设置模板路径)中设置的目录中，新建模板文件，文件名可以自定义 。文件内容如下：
+>在[3.2.1 设置模板路径](#3.2.1-设置模板路径)中设置的目录中，新建模板文件，文件名可以自定义 。文件内容如下：
 >><% tp.user.copy_article_to_des() %>
 
 ^9f4b35
@@ -178,10 +175,10 @@ with open(os.path.join(posts_path,filename[0]),'w',encoding='utf-8') as f:
 
 #### 4.4.2 Obsidian Read Later 插件配置
 1. "Read Later Folder" 选项设置为笔记存放的目录。
-2. "InstaPaper Integration" 设置用户名和同步频率，用户名来自[Instapaper 注册](#4-2-2-Instapaper-注册)
+2. "InstaPaper Integration" 设置用户名和同步频率，用户名来自[Instapaper 注册](#4.2.2-Instapaper-注册)
 ### 4.5 使用
 Obsidian remotely save 插件配置好后，自动运行。
-手机端首次运行，可以将电脑端的仓库复制到手机。
+手机端首次运行，可以将电脑端的仓库复制到手机，方法见[华为手机与电脑的连接]({{< ref "/blog/华为手机与电脑的连接.md" >}})。
 手机剪藏操作：分享至 InstaPaper。
 Obsidian Read Later 插件配置好后，自动运行。
 
@@ -201,3 +198,14 @@ Obsidian Read Later 插件配置好后，自动运行。
 5. 打开PicGo 插件 vikadata 设置，填入 API Token 和 维格表 ID ，然后点击“确定”，并设为默认图床。
 ![image.png](https://s1.vika.cn/space/2023/03/11/025a055803114a9a98cb05145a8a634b)
 6. Obsidian 中，执行复制图片的操作，即自动上传图片至 vika。
+
+## 6 调整图片大小及对齐方式
+### 6.1 图片大小的设置
+在[]的最后加上“|数字”，如 |200，即将图片宽度调整为200px，图片高度自动调整。
+### 6.2 图片的对齐方式
+>#pic_right，右对齐
+>#pic_left，左对齐
+>#pic_center，居中
+### 6.3 实例
+
+![image.png#pic_right|200](https://s1.vika.cn/space/2023/03/14/5ee997c780f14014aa448dd7845e85df) 
