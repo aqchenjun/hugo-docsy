@@ -1,17 +1,13 @@
 ---
 source: 第2章 算法分析
 title: 第2章 算法分析 timeit模块
-tags:
-  - 书籍
-  - python
-date: '2023-03-13 16:39'
-published: 'true'
-abbrlink: ce96347e
-cover:
-thumbnail:
+tags: [ 书籍, python]
+date: 2023-03-13
+lastmod: 2023-03-22
+thumbnail:  
+published: "true"
 ---
 
-# [[第2章 算法分析]]读书笔记详情之二
 
 ## 1 概述
 timeit 模块提供了测量 Python 小段代码执行时间的方法。

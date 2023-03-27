@@ -1,17 +1,13 @@
 ---
 source: 第2章 算法分析
 title: 第2章 算法分析 Python 数据结构的性能
-tags:
-  - 书籍
-  - python
-date: '2023-03-13 16:39'
-published: 'true'
-abbrlink: 2c6b4f15
-cover:
-thumbnail:
+tags: [ 书籍, python]
+date: 2023-03-13
+lastmod: 2023-03-20 
+thumbnail:  
+published: "true"
 ---
 
-# [[第2章 算法分析]]读书笔记详情之三
 
 ## 1 列表
 
