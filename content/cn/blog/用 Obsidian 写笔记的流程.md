@@ -16,7 +16,7 @@ published: "true"
 6. Yaml Manager
 7. Number Headings
 ## 2 新建书籍
-### 2.1 建立[模板]({{< ref "/blog/书籍模板.md" >}})
+### 2.1 建立模板
 #### 2.1.1 模板内容
 1. Front-matter 部分
 3. 笔记列表
@@ -82,10 +82,10 @@ if not os.path.exists(filepath):
 
 #### 2.3.3 选择图标和图标文字
 
-### 2.4 利用[模板]({{< ref "/blog/书籍模板.md" >}})新建书籍
+### 2.4 利用模板新建书籍
 点击左侧边栏的“新建书籍”图标。
 ## 3 新建笔记
-### 3.1 建立[笔记模板]({{< ref "/blog/笔记模板.md" >}})
+### 3.1 建立笔记模板
 >模板内容
 1. Front-matter
 2. 笔记出处的说明
@@ -147,8 +147,8 @@ print('[笔记,'+ tags_value.group(2)[1:-2]+']')
 <% tp.file.move("我的书架/读书笔记/"+tp.config.active_file.basename+"/"+tp.file.title) %>
 
 ### 3.6 笔记详情
-#### 3.6.1 建立[笔记详情模板]({{< ref "/blog/笔记详情模板.md" >}})
-参考[建立书籍模板](#2.1-建立[模板]({{< ref "/blog/书籍模板.md" >}})) 和 [设置 QuickAdd](#2.2-设置-QuickAdd)
+#### 3.6.1 建立笔记详情模板
+参考建立书籍模板 和 设置 QuickAdd
 区别是：
 1. 不需要脚本
 2. QuickAdd 设置中的文件存放目录设置为，笔记详情文件与笔记文件存放在同一目录。
@@ -218,7 +218,7 @@ for i in range(len(titles)):
     s = re.sub(r'[\.\`\__\-\']+',r'-', s)
     content = content.replace(titles[i],s)    
 
-# 调整站内其他文章锚点链接的格式，形如[]({{< ref "/blog/非#开头，中间有 #开头，中间有 .md# 字符串" >}}) ，调整为 hexo 格式
+# 调整站内其他文章锚点链接的格式，调整为 hexo 格式
 titles = re.findall(r'\[.*?\]\(.*\.md#.*?\)',content)
 for i in range(len(titles)):
     s = titles[i]

@@ -178,7 +178,7 @@ with open(os.path.join(posts_path,filename[0]),'w',encoding='utf-8') as f:
 2. "InstaPaper Integration" 设置用户名和同步频率，用户名来自[Instapaper 注册](#4.2.2-Instapaper-注册)
 ### 4.5 使用
 Obsidian remotely save 插件配置好后，自动运行。
-手机端首次运行，可以将电脑端的仓库复制到手机，方法见[华为手机与电脑的连接]({{< ref "/blog/华为手机与电脑的连接.md" >}})。
+手机端首次运行，可以将电脑端的仓库复制到手机。
 手机剪藏操作：分享至 InstaPaper。
 Obsidian Read Later 插件配置好后，自动运行。
 
