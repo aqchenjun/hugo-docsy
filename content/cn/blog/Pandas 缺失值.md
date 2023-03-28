@@ -6,6 +6,7 @@ date: 2023-03-14
 lastmod: 2023-03-21 
 thumbnail: https://s1.vika.cn/space/2023/03/25/2cde404f0152484fa6d28bfc6bfaeab0?attname=QJ6272362943.jpg
 published: "true"
+slug: 20230314212524
 ---
 
 
@@ -66,7 +67,7 @@ df = pd.DataFrame([[2,5, 7, 4,np.nan],
 
 df:
 
-<img src="https://s1.vika.cn/space/2023/03/14/d35251b19dba48e599d506b863278222" width=200px>  
+![image.png#pic_left|200](https://s1.vika.cn/space/2023/03/14/d35251b19dba48e599d506b863278222)  
 
 ### 3.2 删除方向为行
 
@@ -76,7 +77,7 @@ df:
 
 结果：
 
-<img src="https://s1.vika.cn/space/2023/03/14/7601cd2bc67f40aa98da95901759a6da" width=200px>
+![image.png#pic_left|200](https://s1.vika.cn/space/2023/03/14/7601cd2bc67f40aa98da95901759a6da)
 
 代码：  
 
@@ -84,7 +85,7 @@ df:
 
 结果：
 
-<img src="https://s1.vika.cn/space/2023/03/14/acfb3cd8bf23403a9336f526905da31f" width=200px>
+![image.png#pic_left|200](https://s1.vika.cn/space/2023/03/14/acfb3cd8bf23403a9336f526905da31f)
 
 代码：  
 
@@ -92,7 +93,7 @@ df:
 
 结果：
 
-<img src="https://s1.vika.cn/space/2023/03/14/59df39693c57433fb34d20564fb9a7ec" width=200px>
+![image.png#pic_left|200](https://s1.vika.cn/space/2023/03/14/59df39693c57433fb34d20564fb9a7ec)
 
 ### 3.3 删除方向为列  
 
@@ -102,7 +103,7 @@ df:
 
 结果：
 
-<img src="https://s1.vika.cn/space/2023/03/14/625ef71dfa7c460db17a6cd8c286dffb" width=200px>
+![image.png#pic_left|200](https://s1.vika.cn/space/2023/03/14/625ef71dfa7c460db17a6cd8c286dffb)
 
 代码：  
 
@@ -113,7 +114,7 @@ df.dropna(thresh=3,axis=1)
 
 结果：
 
-<img src="https://s1.vika.cn/space/2023/03/14/ee9c1ec2d623447e8da4450e907a39ad" width=200px>
+![image.png#pic_left|200](https://s1.vika.cn/space/2023/03/14/ee9c1ec2d623447e8da4450e907a39ad)
 
 代码：  
 
@@ -121,4 +122,4 @@ df.dropna(thresh=3,axis=1)
 
 结果：
 
-<img src="https://s1.vika.cn/space/2023/03/14/94d2fa9ee64c4685b43f7664ac946bce" width=80px>
+![image.png#pic_left|80](https://s1.vika.cn/space/2023/03/14/94d2fa9ee64c4685b43f7664ac946bce)

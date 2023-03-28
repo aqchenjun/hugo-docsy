@@ -6,6 +6,7 @@ date: 2023-03-13
 lastmod: 2023-03-16 
 thumbnail: https://s1.vika.cn/space/2023/03/25/c9c4077d7c524271b950dc30f155dd0a?attname=u%3D2705972022%2C1718814674%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DPNG.webp
 published: "true"
+slug: 20230313170633
 ---
  
 ## 1 纯英文的词云图  

@@ -6,6 +6,7 @@ date: 2023-03-17
 lastmod: 2023-03-22 
 thumbnail: https://s1.vika.cn/space/2023/03/25/084259a349bd4d7a9a92f570dc1fdf95?attname=soviet-1354211_960_720.jpg
 published: "true"
+slug: 20230317223613
 ---
 
 
@@ -71,7 +72,7 @@ pd.DatetimeIndex(data=None,        #array-like (1-dimensional)
 
 #### 1.2.2 to_datetime() 方法 
 
-同上述 [1-1-2 to-datetime() 方法](#1-1-2-to-datetime()%20方法)  
+同上述 [1.1.2 to_datetime() 方法](#1.1.2-to_datetime()%20方法)  
 
 #### 1.2.3 date_range() 方法  
 
@@ -411,7 +412,7 @@ DataFrame.resample(rule,               #DateOffset, Timedelta or str
 ### 7.1 date_range 和 timedelta_range 中 freq的可选值  
 
 | Alias(别名) | Description（意义） |
-| ----------- | ------------------- |
+| ----------- |------------------- |
 | B | business day frequency |
 | C | custom business day frequency |
 | D | calendar day frequency |

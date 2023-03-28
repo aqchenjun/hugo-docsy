@@ -6,6 +6,7 @@ date: 2023-03-17
 lastmod: 2023-03-22
 thumbnail: https://s1.vika.cn/space/2023/03/25/3c22c65f9b8a4c469656f8f3d5a1b87e?attname=business-5475661_960_720.jpg
 published: "true"
+slug: 20230317173003
 ---
 
 
@@ -124,14 +125,14 @@ pd.concat([df1,df_s])
 
 df1:
 
-<img src="https://s1.vika.cn/space/2023/03/17/96686d1479444ebbae04fad5e686c2a9" width=150px>
+![image.png|150](https://s1.vika.cn/space/2023/03/17/96686d1479444ebbae04fad5e686c2a9)
 
 
   
 
 concat 结果：
 
-<img src="https://s1.vika.cn/space/2023/03/17/1a1e6384f94d4336818fef5a07677edc" width=150px>
+![image.png|150](https://s1.vika.cn/space/2023/03/17/1a1e6384f94d4336818fef5a07677edc)
 
 ## 9 关于 combine  
 

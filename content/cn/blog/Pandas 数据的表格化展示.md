@@ -6,9 +6,9 @@ date: 2023-03-14
 lastmod: 2023-03-23 
 thumbnail: https://s1.vika.cn/space/2023/03/25/506e3155902c4b45a7054c9dd856f1c9?attname=notebook-1850613_960_720.jpg 
 published: "true"
+slug: 20230314201736
 ---
 
-# [[Pandas]]读书笔记详情之四
 
 ## 1 表头（标题）  
 
@@ -115,14 +115,14 @@ df = pd.DataFrame([[1,2],[3,4]], index=["a", "b"],
 df
 ```
   
-<img src="https://s1.vika.cn/space/2023/03/14/5ee997c780f14014aa448dd7845e85df" width=150px> 
+![image.png#pic_left|150](https://s1.vika.cn/space/2023/03/14/5ee997c780f14014aa448dd7845e85df) 
 
 ```python
 classes = pd.DataFrame(data='red',index=['a'],columns=[['level0'],['level1a']])
 classes
 ```
 
-<img src="https://s1.vika.cn/space/2023/03/14/dd079d4533e7476e90d05052e9a8e784" width=150px>
+![image.png#pic_left|150](https://s1.vika.cn/space/2023/03/14/dd079d4533e7476e90d05052e9a8e784)
   
 
 ```python

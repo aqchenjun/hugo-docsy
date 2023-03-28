@@ -4,9 +4,11 @@ title: 流程图(flowchart)
 tags: [ 教程]
 thumbnail: https://thumbsnap.com/i/7mHPUyMf.jpg
 date: 2023-02-15
-lastmod: 2023-03-25 
+lastmod: 2023-03-27 
 published: "true"
+slug: 20230304110713
 ---
+# 《Mermaid 语法》读书笔记之一
 ## 1 方向
 
 - TB - top to bottom
@@ -43,9 +45,14 @@ flowchart TB
 连接线的长度和形状：
 
 | Length | 1 | 2 | 3 |
-| --- | --- | --- | --- |
-| Normal | --- | ---- | ----- |
-| Normal with arrow | --> | ---> | ----> |
+| slug: 20230304110713
+--- | --- | slug: 20230304110713
+--- | --- |
+| Normal | slug: 20230304110713
+--- | ---- | slug: 20230304110713
+----- |
+| Normal with arrow | --> | ---> | slug: 20230304110713
+----> |
 | Thick | === | ==== | ===== |
 | Thick with arrow | ==> | ===> | ====> |
 | Dotted | -.- | -..- | -...- |

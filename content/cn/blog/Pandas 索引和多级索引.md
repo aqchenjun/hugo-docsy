@@ -6,6 +6,7 @@ date: 2023-03-17
 lastmod: 2023-03-21 
 thumbnail: https://s1.vika.cn/space/2023/03/25/216d459520914627b21fd672e906871e?attname=archive-7548483__340.jpg
 published: "true"
+slug: 20230317162422
 ---
 
 
@@ -159,7 +160,7 @@ df
 ```
 
 结果：
-<img src="https://s1.vika.cn/space/2023/03/17/a793a33d88ec413a81975067b07d386d" width=300px>
+![image.png|300](https://s1.vika.cn/space/2023/03/17/a793a33d88ec413a81975067b07d386d)
 
 ```python
 #选取行('A','b')和('B','a')，选取所有第二层列的 'd'
@@ -201,7 +202,7 @@ df
 
 数据集：
 
-<img src="https://s1.vika.cn/space/2023/03/17/e09ec8d9d82f4cfe99b095d2f3a5b2bd" width=200px>
+![image.png|200](https://s1.vika.cn/space/2023/03/17/e09ec8d9d82f4cfe99b095d2f3a5b2bd)
 
 ```python
 df.loc['2014']
@@ -223,7 +224,7 @@ df=pd.DataFrame(
 df
 ```
 
-<img src="https://s1.vika.cn/space/2023/03/17/491889a682b344e2b38258df12ed9003" width=200px>
+![image.png|200](https://s1.vika.cn/space/2023/03/17/491889a682b344e2b38258df12ed9003)
 
 ```python
 df.loc[(slice(None),'2013'),:]        #所有2013年的数据

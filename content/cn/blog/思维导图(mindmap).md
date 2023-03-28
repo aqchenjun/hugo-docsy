@@ -3,10 +3,12 @@ source: plantUML 语言参考指引
 title: 思维导图(mindmap)
 tags: [ 教程]
 date: 2023-03-04
-lastmod: 2023-03-25 
+lastmod: 2023-03-27 
 thumbnail: https://thumbsnap.com/i/YK8syLtd.jpg
 published: "true"
+slug: 20230221141023
 ---
+# 《plantUML 语言参考指引》读书笔记之二
 
 ## 1 开始和结束
 

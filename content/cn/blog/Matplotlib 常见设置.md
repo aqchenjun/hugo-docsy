@@ -6,6 +6,7 @@ date: 2023-03-13
 lastmod: 2023-03-15
 thumbnail: https://s1.vika.cn/space/2023/03/13/7d30c13b23104b94b79e25d9b22f21a7?attname=20230313060628.png
 published: "true"
+slug: 20230313170238
 ---
  
 >坐标轴以X轴为例  

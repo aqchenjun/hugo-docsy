@@ -6,22 +6,25 @@ date: 2023-03-13
 lastmod: 2023-03-21
 thumbnail: https://s1.vika.cn/space/2023/03/25/8bdb572556604a6e91b3396ac6600a26?attname=20200517121952353.png  
 published: "true"
+slug: 202303‎‎13‎‏‎212204
 ---
 
 
 ## 1 函数列表  
 
 当需要重复调用 DataFrameGroupby 对象，并且有聚合计算时，pipe方法通常很有用。  
+  
 
-|           | Series                                                                         |                                             | DataFrame                                                                                                                                                     |                              |
-| --------- | ------------------------------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-|           | 传入的参数                                                                     | 返回值                                      | 传入的参数                                                                                                                                                    | 返回值                       |
-| map       | 1、函数。参数是Series中的每个元素。2、字典。对应Series中的每个元素。           | 与Series 相同 index的Series                 |                                                                                                                                                               |                              |
-| applymap  |                                                                                |                                             | 函数。参数是DataFrame中的每个元素。                                                                                                                           | DataFrame                    |
-| apply     | 函数。参数是Series中的每个元素，有args 和 wargs。                              | Series 或者 DataFrame                       | 1、函数。参数是整个DataFrame，计算方向由axis 确定。有args 和 kwargs。2、axis。0 or ‘index’：对列1 or ‘columns’：对行                                          | 沿 axis 的DataFrame 或Series |
-| pipe      | 函数。参数是整个Series，有args 和 kwargs。                                     | 与调用的函数有关                            | 函数。参数是整个DataFrame，有args 和 kwargs。                                                                                                                 | 与调用的函数有关             |
-| transform | 函数、函数名、上述两种的列表和字典。函数的参数是整个Series，有args 和 kwargs。 | 新的 DataFrame 或 Series                    | 1、函数、函数名、上述两种的列表和字典。函数的参数是整个DataFrame 的每列或每行，由axis 确定。有args 和 kwargs。2、axis。0 or ‘index’：对列1 or ‘columns’：对行 | 新的 DataFrame               |
-| agg       | 函数、函数名、上述两种的列表和字典。函数的参数是整个Series，有args 和 kwargs。 | scalar 、Series 、DataFrame，与调用方法有关 | 1、函数、函数名、上述两种的列表和字典。函数的参数是整个DataFrame，有args 和 kwargs。2、axis。0 or ‘index’：对列1 or ‘columns’：对行                           | scalar 、Series 、DataFrame，与调用方法有关                              |
+|     | Series |     | DataFrame |     |
+| --- | ------ | --- | --------- | --- |
+|           | 传入的参数                                                                     | 返回值                                      | 传入的参数                                                                                                                                                    | 返回值                       |
+| map       | 1、函数。参数是Series中的每个元素。2、字典。对应Series中的每个元素。           | 与Series 相同 index的Series                 |                                                                                                                                                               |                              |
+| applymap  |                                                                                |                                             | 函数。参数是DataFrame中的每个元素。                                                                                                                           | DataFrame                    |
+| apply     | 函数。参数是Series中的每个元素，有args 和 wargs。                              | Series 或者 DataFrame                       | 1、函数。参数是整个DataFrame，计算方向由axis 确定。有args 和 kwargs。2、axis。0 or ‘index’：对列1 or ‘columns’：对行                                          | 沿 axis 的DataFrame 或Series |
+| pipe      | 函数。参数是整个Series，有args 和 kwargs。                                     | 与调用的函数有关                            | 函数。参数是整个DataFrame，有args 和 kwargs。                                                                                                                 | 与调用的函数有关             |
+| transform | 函数、函数名、上述两种的列表和字典。函数的参数是整个Series，有args 和 kwargs。 | 新的 DataFrame 或 Series                    | 1、函数、函数名、上述两种的列表和字典。函数的参数是整个DataFrame 的每列或每行，由axis 确定。有args 和 kwargs。2、axis。0 or ‘index’：对列1 or ‘columns’：对行 | 新的 DataFrame               |
+| agg       | 函数、函数名、上述两种的列表和字典。函数的参数是整个Series，有args 和 kwargs。 | scalar 、Series 、DataFrame，与调用方法有关 | 1、函数、函数名、上述两种的列表和字典。函数的参数是整个DataFrame，有args 和 kwargs。2、axis。0 or ‘index’：对列1 or ‘columns’：对行                           | scalar 、Series 、DataFrame，与调用方法有关                              |
+
 
 ## 2 示例数据集  
 

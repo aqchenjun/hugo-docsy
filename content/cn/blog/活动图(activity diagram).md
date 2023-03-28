@@ -3,10 +3,12 @@ source: plantUML 语言参考指引
 title: 活动图(activity diagram)
 tags: [ 教程]
 date: 2023-03-04
-lastmod: 2023-03-25 
+lastmod: 2023-03-27 
 thumbnail: https://thumbsnap.com/i/jNZcWa5N.jpg
 published: "true"
+slug: 20230221141022
 ---
+# 《plantUML 语言参考指引》读书笔记之一
 
 ## 1 开始/结束
 
