@@ -1,5 +1,5 @@
 ---
-source: Pandas
+categories: Pandas
 title: Pandas 数据集的分组（分类、分块）
 tags: [ 教程, python]
 date: 2023-03-18

@@ -1,4 +1,5 @@
 ---
+categories: 知识积累
 title: "Docsy Blog"
 linkTitle: "所有文章"
 menu:

@@ -1,5 +1,5 @@
 ---
-source: 
+categories: 知识积累 
 title: 用 Obsidian 写笔记的流程
 tags: [ 综合]
 date: 2023-03-12

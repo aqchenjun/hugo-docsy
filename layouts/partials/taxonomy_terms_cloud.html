@@ -5,10 +5,10 @@
   {{ $taxonomy := index $context.Site.Taxonomies (lower $taxo) }}
   {{ if (gt (len $taxonomy) 0)}}
     <div class="taxonomy taxonomy-terms-cloud taxo-{{ urlize $taxo }}">
-      <!-- {{ with $title }}
+      {{ with $title }}
         <h5 class="taxonomy-title">{{ . }}</h5>
-      {{ end }} -->
-      <h5>标签云</h5>
+      {{ end }}
+      <!-- <h5>标签云</h5> -->
       <ul class="taxonomy-terms">
         {{ range $taxonomy }}
           <li><a class="taxonomy-term" href="{{ .Page.Permalink }}" data-taxonomy-term="{{ urlize .Page.Title }}"><span class="taxonomy-label">{{ .Page.Title }}</span><span class="taxonomy-count">{{ .Count }}</span></a></li>

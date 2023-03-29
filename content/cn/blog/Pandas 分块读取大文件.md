@@ -1,6 +1,6 @@
 ---
-source: Pandas
-title: PandasPandas 分块读取大文件
+categories: Pandas
+title: Pandas 分块读取大文件
 tags: [ 教程, python]
 date: 2023-03-28
 lastmod: 2023-03-28 

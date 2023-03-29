@@ -1,5 +1,5 @@
 ---
-source: Matplotlib
+categories: Matplotlib
 title: Matplotlib 常见设置
 tags: [ 教程, python]
 date: 2023-03-13

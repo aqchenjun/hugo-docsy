@@ -1,5 +1,5 @@
 ---
-source: Pandas
+categories: Pandas
 title: Pandas 几个常用方法
 tags: [ 教程, python]
 date: 2023-03-17

@@ -1,5 +1,5 @@
 ---
-source: 
+categories: 知识积累 
 title: Obsidian 使用技巧
 tags: [ 综合]
 date: 2023-03-12

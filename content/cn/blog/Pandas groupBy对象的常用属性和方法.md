@@ -1,5 +1,5 @@
 ---
-source: Pandas
+categories: Pandas
 title: Pandas groupBy对象的常用属性和方法
 tags: [ 教程, python]
 date: 2023-03-13

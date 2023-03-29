@@ -1,5 +1,5 @@
 ---
-source: Mermaid 语法
+categories: Mermaid 语法
 title: 流程图(flowchart)
 tags: [ 教程]
 thumbnail: https://thumbsnap.com/i/7mHPUyMf.jpg

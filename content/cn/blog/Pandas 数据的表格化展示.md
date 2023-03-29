@@ -1,5 +1,5 @@
 ---
-source: Pandas
+categories: Pandas
 title: Pandas 数据的表格化展示
 tags: [ 教程, python]
 date: 2023-03-14

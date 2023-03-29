@@ -1,5 +1,5 @@
 ---
-source: plantUML 语言参考指引
+categories: plantUML 语言参考指引
 title: 思维导图(mindmap)
 tags: [ 教程]
 date: 2023-03-04

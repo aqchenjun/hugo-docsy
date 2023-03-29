@@ -1,5 +1,5 @@
 ---
-source: Django
+categories: Django
 title: Django 建立web应用的一般方法
 tags: [教程,Python]
 date: 2023-03-28

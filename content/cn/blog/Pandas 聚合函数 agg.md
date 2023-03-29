@@ -1,5 +1,5 @@
 ---
-source: Pandas
+categories: Pandas
 title: Pandas 聚合函数 agg
 tags: [ 教程, python]
 date: 2023-03-17
