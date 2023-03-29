@@ -1,5 +1,5 @@
 ---
-categories: 第2章 算法分析
+categories: Python 数据结构与算法分析(第2版)
 title: 第2章 算法分析 timeit模块
 tags: [ 书籍, python]
 date: 2023-03-13
