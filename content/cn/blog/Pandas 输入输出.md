@@ -6,7 +6,7 @@ date: 2023-03-17
 lastmod: 2023-03-23
 thumbnail: https://s1.vika.cn/space/2023/03/25/ff6af523108a4729bdfb3bf4eaa91e44?attname=automation-3624328_960_720.jpg
 published: "true"
-slug: 20230317195352
+slug: 3dd234c
 ---
 
 
@@ -232,4 +232,5 @@ for i in range(0,len(file_list)):      #针对每个文件
         df = pd.concat([df,pd.read_excel(os.path.join('demodata',file_list[i]))])        #两两合并
 
 df
+```df
 ```

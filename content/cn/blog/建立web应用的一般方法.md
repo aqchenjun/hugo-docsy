@@ -4,7 +4,7 @@ title: Django 建立web应用的一般方法
 tags: [教程,Python]
 date: 2023-03-28
 lastmod: 2023-03-28 
-slug: 20230328093946
+slug: wgso5r0
 thumbnail:  
 published: "true"
 ---
@@ -400,5 +400,7 @@ def commodityViews(request):
     if request.is_ajax():
         return JsonResponse(result,safe=False)
     return render(request,'commodity/commodity.html',context)
+```
+
 ```
 

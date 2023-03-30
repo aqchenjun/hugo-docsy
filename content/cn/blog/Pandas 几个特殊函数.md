@@ -6,7 +6,7 @@ date: 2023-03-13
 lastmod: 2023-03-21
 thumbnail: https://s1.vika.cn/space/2023/03/25/8bdb572556604a6e91b3396ac6600a26?attname=20200517121952353.png  
 published: "true"
-slug: 202303‎‎13‎‏‎212204
+slug: taxyyuk
 ---
 
 
@@ -94,4 +94,5 @@ data['weight']/(data['height']/100)**2
 data.pipe(lambda x:x['weight']/(x['height']/100)**2)
 #apply方法
 data[["height","weight"]].apply(lambda x:x['weight']/(x['height']/100)**2,axis=1)
+```]/100)**2,axis=1)
 ```

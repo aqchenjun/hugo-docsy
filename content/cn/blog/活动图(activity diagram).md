@@ -6,7 +6,7 @@ date: 2023-03-04
 lastmod: 2023-03-27 
 thumbnail: https://thumbsnap.com/i/jNZcWa5N.jpg
 published: "true"
-slug: 20230221141022
+slug: ec06k5h
 ---
 # 《plantUML 语言参考指引》读书笔记之一
 
@@ -261,4 +261,5 @@ title 这是一个活动图
 ```plantuml
 skinparam conditionStyle InsideDiamond
 skinparam ConditionEndStyle hline
+```ne
 ```

@@ -6,7 +6,7 @@ thumbnail: https://thumbsnap.com/i/7mHPUyMf.jpg
 date: 2023-02-15
 lastmod: 2023-03-27 
 published: "true"
-slug: 20230304110713
+slug: gljekfe
 ---
 # 《Mermaid 语法》读书笔记之一
 ## 1 方向
@@ -121,4 +121,5 @@ flowchart TD
     B-->C[fa:fa-ban forbidden]
     B-->D(fa:fa-spinner)
     B-->E(A fa:fa-camera-retro perhaps?)
+```?)
 ```

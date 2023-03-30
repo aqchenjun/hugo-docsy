@@ -6,7 +6,7 @@ date: 2023-03-14
 lastmod: 2023-03-20
 thumbnail: 
 published: "true"
-slug: 20230314200913
+slug: lbavnfc
 ---
 
 
@@ -156,6 +156,10 @@ df.style.set_properties(subset=None, **kwargs)
 df.style.set_properties(color="white", align="right")  
 df.style.set_properties(**{'background-color': 'yellow'})
 ```
+
+
+
+
 
 
 

@@ -6,7 +6,7 @@ date: 2023-03-17
 lastmod: 2023-03-21 
 thumbnail: https://s1.vika.cn/space/2023/03/25/216d459520914627b21fd672e906871e?attname=archive-7548483__340.jpg
 published: "true"
-slug: 20230317162422
+slug: 8kdp5el
 ---
 
 
@@ -274,4 +274,4 @@ df.columns=df.columns.map(lambda x:x[0]+'_'+x[1])
 df.columns=df.columns.str.split('_').map(lambda x:(x[0],x[1]))
 ```
 
-df.columns 列表元素是字符串，字符串分割后为列表，map 方法将列表转换为元组，即多级索引。
+df.columns 列表元素是字符串，字符串分割后为列表，map 方法将列表转换为元组，即多级索引。�引。

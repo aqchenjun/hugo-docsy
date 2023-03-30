@@ -6,7 +6,7 @@ date: 2023-03-14
 lastmod: 2023-03-23 
 thumbnail: https://s1.vika.cn/space/2023/03/25/506e3155902c4b45a7054c9dd856f1c9?attname=notebook-1850613_960_720.jpg 
 published: "true"
-slug: 20230314201736
+slug: j0l113t
 ---
 
 
@@ -227,5 +227,7 @@ Styler.hide(subset=None, axis=0, level=None, names=False)    #隐藏显示部�
 
 Styler.clear()
 Styler.background_gradient(cmap='PuBu', low=0, high=0, axis=0, subset=None, text_color_threshold=0.408, vmin=None, vmax=None, gmap=None)
+```
+
 ```
 

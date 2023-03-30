@@ -6,7 +6,7 @@ date: 2023-03-17
 lastmod: 2023-03-23 
 thumbnail: https://s1.vika.cn/space/2023/03/25/3aacbe6a765b458dbc352a0edde2c5be?attname=pattern-3109720__340.jpg
 published: "true"
-slug: 20230317174957
+slug: 5w5k38o
 ---
 
 
@@ -45,3 +45,4 @@ keep：处理重复值的方法。
 	- 'last'：保留最后一个重复值，其余均去除。
 	- 'False'：去除所有重复值。
 返回一个没有重复值的 DataFrame
+Frame

@@ -4,7 +4,7 @@ title: Pandas 分块读取大文件
 tags: [ 教程, python]
 date: 2023-03-28
 lastmod: 2023-03-28 
-slug: 20230328093023
+slug: 7hbczmn
 thumbnail:  
 published: "true"
 ---
@@ -45,4 +45,5 @@ while True:
     #每次读 10 行数据，由于前面有一个get_chunk(5) 语句，因此从第六条语句开始
     except StopIteration:
         break
+```ak
 ```

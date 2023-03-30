@@ -6,7 +6,7 @@ date: 2023-03-17
 lastmod: 2023-03-22 
 thumbnail: https://s1.vika.cn/space/2023/03/25/084259a349bd4d7a9a92f570dc1fdf95?attname=soviet-1354211_960_720.jpg
 published: "true"
-slug: 20230317223613
+slug: 5zzq2wj
 ---
 
 
@@ -490,4 +490,6 @@ DataFrame.resample(rule,               #DateOffset, Timedelta or str
 | Date times | Timestamp | pd.Timestamp、to_datetime | DatetimeIndex | to_datetime 、date_range | datetime64[ns] 、 datetime64[ns, tz] |
 | Time deltas | Timedelta | pd.Timedelta、to_timedelta、 | TimedeltaIndex | to_timedelta 、timedelta_range、pd.TimedeltaIndex | timedelta64[ns] |
 | Date offsets | DateOffset | pd.offsets.DateOffset、pd.DateOffset | None |  | None |
+  
+|
   

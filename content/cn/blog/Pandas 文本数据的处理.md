@@ -4,7 +4,7 @@ title: Pandas 文本数据的处理
 tags: [ 教程, python]
 date: 2023-03-28
 lastmod: 2023-03-28 
-slug: 20230328085937
+slug: tl17atp
 thumbnail:  
 published: "true"
 ---
@@ -180,4 +180,5 @@ Series.str.pad(width,            #结果字符串的最小宽度
 Series.str.strip(to_strip=None)
 Series.str.lstrip(to_strip=None)
 Series.str.rstrip(to_strip=None)
+```e)
 ```

@@ -6,7 +6,7 @@ date: 2023-03-17
 lastmod: 2023-03-22 
 thumbnail: https://s1.vika.cn/space/2023/03/25/66f0f22ad0f647debc038a14caf617f7?attname=sunrise-7852888_960_720.jpg
 published: "true"
-slug: 20230317174438
+slug: jk2w4ne
 ---
 
 
@@ -78,4 +78,5 @@ df.agg("mean", axis="columns")
 2    8.0
 3    NaN
 dtype: float64
+```64
 ```

@@ -4,7 +4,7 @@ title: Django 管理后台的自定义
 tags: [教程,Python]
 date: 2023-03-28
 lastmod: 2023-03-28 
-slug: 20230328112619
+slug: k22vrpx
 thumbnail:  
 published: "true"
 ---
@@ -104,4 +104,4 @@ admin.site.index_title = 'gl'
 
 ## 3 自定义ModelAdmin 的部分函数  
 
-常用的自定义函数包括 get_readonly_fields()、get_queryset()、save_model()以及 参数 actions 等。
+常用的自定义函数包括 get_readonly_fields()、get_queryset()、save_model()以及 参数 actions 等。 等。

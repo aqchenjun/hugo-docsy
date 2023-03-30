@@ -6,7 +6,7 @@ date: 2023-03-12
 lastmod: 2023-03-16
 thumbnail: https://s1.vika.cn/space/2023/03/12/7951c28f287743db9f0e65c5739d5f96?attname=20230312222408.png
 published: "true"
-slug: 20230312220449
+slug: 8qyt7x7
 ---
 
 # 《Python 程序语言》读书笔记之三
@@ -110,3 +110,4 @@ print(time.gmtime(time.time()))
 >结构化时间与格式化字符串时间之间的转换
 >>time.strftime([时间格式],[结构化时间]) : "struct_time" 转换 "format time"
 >>time.strptime([格式化的字符串时间],[时间格式]) : "format time" 转换 "struct_time"
+time"

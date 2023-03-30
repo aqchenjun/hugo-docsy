@@ -6,7 +6,7 @@ date: 2023-03-13
 lastmod: 2023-03-20 
 thumbnail: https://s1.vika.cn/space/2023/03/25/4b9a767a423a432f98351273e4dff2be?attname=u%3D628989781%2C1120270390%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DPNG.webp
 published: "true"
-slug: 20230313170136
+slug: 6hziwee
 ---
 
 
@@ -52,5 +52,8 @@ plt.savefig('example.png')
 #显示
 plt.show()
 ```
+
+
+`
 
 

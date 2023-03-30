@@ -6,7 +6,7 @@ date: 2023-03-18
 lastmod: 2023-03-22 
 thumbnail: https://s1.vika.cn/space/2023/03/25/b9c5dfff93044b72ada1cc731189ce19?attname=magnets-2488264_960_720.jpg
 published: "true"
-slug: 20230318151213
+slug: q359088
 ---
 
 pandas 的分组（分类、分块）涉及到的方法有 groupby(by=None)、value_counts(bins=None)、cut(bins=)。  
@@ -82,4 +82,5 @@ def q():
 #此处的 transform 可以 用 map
 return se1
   se.groupby(q())['se'].mean()
+```()
 ```

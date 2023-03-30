@@ -6,7 +6,7 @@ date: 2023-03-12
 lastmod: 2023-03-27 
 thumbnail: https://s1.vika.cn/space/2023/03/12/f097b4e8910c4e0fa0767d4084298d15
 published: "true"
-slug: 20230311110453
+slug: e7w1i5s
 ---
 
 ## 1 需要的插件
@@ -298,4 +298,5 @@ start
 	endif
 end
 @enduml
+```ml
 ```

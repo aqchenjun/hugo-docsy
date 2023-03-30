@@ -6,7 +6,7 @@ date: 2023-03-13
 lastmod: 2023-03-18
 thumbnail: https://s1.vika.cn/space/2023/03/25/bb106251dae44a2b877d3c07b9cef272?attname=v2-f77095068b00b4b2ff2c5c1381d0582a_1440w.jpg 
 published: "true"
-slug: 20230313170323
+slug: u8vui5g
 ---
 
 
@@ -29,3 +29,4 @@ plt.text(x=0, y=0, text='', *, color=None, verticalalignment='baseline', horizon
 - verticalalignment（va）：{'bottom', 'baseline', 'center', 'center_baseline', 'top'}
 - linespacing=1.2：行间距
 - rotation：旋转度数，float or {'vertical', 'horizontal'}  
+l'}  

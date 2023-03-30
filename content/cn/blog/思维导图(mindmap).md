@@ -6,7 +6,7 @@ date: 2023-03-04
 lastmod: 2023-03-27 
 thumbnail: https://thumbsnap.com/i/YK8syLtd.jpg
 published: "true"
-slug: 20230221141023
+slug: g5vr1of
 ---
 # 《plantUML 语言参考指引》读书笔记之二
 
@@ -173,4 +173,6 @@ skinparam NodeFontColor black
 ## Another sub item
 # Third item;
 @endmindmap
+```
+
 ```

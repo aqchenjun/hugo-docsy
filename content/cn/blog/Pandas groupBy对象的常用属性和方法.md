@@ -6,7 +6,7 @@ date: 2023-03-13
 lastmod: 2023-03-24 
 thumbnail: https://s1.vika.cn/space/2023/03/25/79df5448cf434bb7b7d9461a802f7436?attname=flowers-6790357__340.jpg
 published: "true"
-slug: 20230313223812
+slug: biegtlu
 ---
 
 
@@ -343,4 +343,4 @@ grouper.apply(lambda x:(x['Price']*x['Quantity']).sum())
 ```
 
 >注意
->- 此处不能使用 pipe 函数，因为 pipe 函数中的 x['Price'] 和 x['Quantity'] 是 SeriesGroupby 对象，聚合后才能使用。
+>- 此处不能使用 pipe 函数，因为 pipe 函数中的 x['Price'] 和 x['Quantity'] 是 SeriesGroupby 对象，聚合后才能使用。�用。

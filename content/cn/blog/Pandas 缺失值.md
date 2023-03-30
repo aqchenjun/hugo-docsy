@@ -6,7 +6,7 @@ date: 2023-03-14
 lastmod: 2023-03-21 
 thumbnail: https://s1.vika.cn/space/2023/03/25/2cde404f0152484fa6d28bfc6bfaeab0?attname=QJ6272362943.jpg
 published: "true"
-slug: 20230314212524
+slug: zc6omlf
 ---
 
 
@@ -123,3 +123,4 @@ df.dropna(thresh=3,axis=1)
 结果：
 
 ![image.png#pic_left|80](https://s1.vika.cn/space/2023/03/14/94d2fa9ee64c4685b43f7664ac946bce)
+6bce)

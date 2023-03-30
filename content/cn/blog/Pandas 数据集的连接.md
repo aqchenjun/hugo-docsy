@@ -6,7 +6,7 @@ date: 2023-03-17
 lastmod: 2023-03-22
 thumbnail: https://s1.vika.cn/space/2023/03/25/3c22c65f9b8a4c469656f8f3d5a1b87e?attname=business-5475661_960_720.jpg
 published: "true"
-slug: 20230317173003
+slug: lgii2rg
 ---
 
 
@@ -170,4 +170,5 @@ df2 = pd.DataFrame(data = {'A':[5.0,2.0,3],'B':[np.nan,np.nan,6.0],'C':[7.0,8,np
                   index = ['one','two','four'])
 df1.combine_first(df2)
 #df1.combine(df2,lambda s1,s2:s1.mask((s1.isna())&(s2.notna()),s2)) 效果一致
+```��
 ```

@@ -3,13 +3,14 @@ categories: Django
 title: Django 根据不同的登录用户显示不同的数据
 tags: [教程,Python]
 date: 2023-03-28
-lastmod: 2023-03-29 
-slug: 20230328113257
+lastmod: 2023-03-30 
+slug: bezl9n5
 thumbnail:  
 published: "true"
 ---
 
->《Python 程序语言：Django》读书笔记之3
+>《Python 程序语言·Django》读书笔记之三
+
 
 ## 1 注册  
 
@@ -229,4 +230,5 @@ def table(request,user_id):
 def logoutView(request):
     logout(request)
     return redirect(reverse('items:item'))
+```))
 ```

@@ -6,7 +6,7 @@ date: 2023-03-12
 lastmod: 2023-03-27 
 thumbnail: https://s1.vika.cn/space/2023/03/12/6a734b8314f54be7a542238033c99e92
 published: "true"
-slug: 20230226055317
+slug: fs63uoh
 ---
 
 >注意事项
@@ -209,4 +209,4 @@ Obsidian Read Later 插件配置好后，自动运行。
 >#pic_center，居中
 ### 6.3 实例
 
-![image.png#pic_right|200](https://s1.vika.cn/space/2023/03/14/5ee997c780f14014aa448dd7845e85df) 
+![image.png#pic_right|200](https://s1.vika.cn/space/2023/03/14/5ee997c780f14014aa448dd7845e85df) e85df) 

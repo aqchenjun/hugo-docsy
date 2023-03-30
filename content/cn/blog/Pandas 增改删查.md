@@ -6,7 +6,7 @@ date: 2023-03-17
 lastmod: 2023-03-23 
 thumbnail: https://s1.vika.cn/space/2023/03/25/c09aa983ece747039ec86af84373b3c5?attname=technology-1283624__340.jpg 
 published: "true"
-slug: 20230317194819
+slug: jr64764
 ---
 
 
@@ -97,4 +97,4 @@ DataFrame.drop( index=None,    #欲删除的索引
 
 ## 4 查  
 
-`df[ ]、df.loc[ ]、df.iloc[ ]、df.query()、df.where()、 df.mask()`
+`df[ ]、df.loc[ ]、df.iloc[ ]、df.query()、df.where()、 df.mask()`mask()`

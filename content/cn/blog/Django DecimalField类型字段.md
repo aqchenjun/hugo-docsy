@@ -3,8 +3,8 @@ categories: Django
 title: Django DecimalField类型字段
 tags: [教程,Python]
 date: 2023-03-28
-lastmod: 2023-03-28 
-slug: 20230328135751
+lastmod: 2023-03-29 
+slug: 4k0545g
 thumbnail:  
 published: "true"
 ---
@@ -28,4 +28,5 @@ if contractAmount:
 else:
 	contractAmount = Decimal(0.00)
 #数据源超过了max_digits 和 decimal_places 的值会自动舍去。
+```��
 ```

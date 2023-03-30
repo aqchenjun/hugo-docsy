@@ -6,7 +6,7 @@ date: 2023-03-13
 lastmod: 2023-03-22
 thumbnail:  
 published: "true"
-slug: 20230313163912
+slug: cbju55g
 ---
 
 
@@ -63,4 +63,6 @@ for i in range(100000,10000001,100000):
     n = random.randint(1, i)
     t = timeit.Timer(stmt = foo(lst,n),setup='from __main__ import foo')    #lst 和 n 赋值应在该语句之前
     result.append(t.timeit(number = 1))
+```
+
 ```

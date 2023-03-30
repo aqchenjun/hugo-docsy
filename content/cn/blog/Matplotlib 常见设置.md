@@ -6,7 +6,7 @@ date: 2023-03-13
 lastmod: 2023-03-15
 thumbnail: https://s1.vika.cn/space/2023/03/13/7d30c13b23104b94b79e25d9b22f21a7?attname=20230313060628.png
 published: "true"
-slug: 20230313170238
+slug: 1zou6a5
 ---
  
 >坐标轴以X轴为例  
@@ -185,3 +185,4 @@ for x in df.index:    ax.text(x,df.loc[x,'a'],df.loc[x,'a'].round(2),va='botto
 ```
 
 ![image.png](https://s1.vika.cn/space/2023/03/13/3882fc170542454b9b459248e06de0ca)
+e0ca)

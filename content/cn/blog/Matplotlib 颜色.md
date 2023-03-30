@@ -6,7 +6,7 @@ date: 2023-03-13
 lastmod: 2023-03-19 
 thumbnail: https://s1.vika.cn/space/2023/03/25/b328b4afaf414fc889df0d416e9faa15?attname=u%3D370758891%2C1483979753%26fm%3D253%26fmt%3Dauto%26app%3D138%26f%3DJPEG.webp
 published: "true"
-slug: 20230313170442
+slug: 4gt8nz5
 ---
  
 Matplotlib 的颜色设置有两种情况，
@@ -88,4 +88,5 @@ matplotlib 中的所有内置颜色实例名称可以用 plt.get_cmap() 得到�
 ```python
 plt.scatter(x,y,c=(1.0, 0.0, 0.0))
 plt.scatter(x,y,c=(1.0, 0.0, 1.0,0.5))
+```))
 ```

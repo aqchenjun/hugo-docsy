@@ -4,7 +4,7 @@ title: Pandas 数据的变形
 tags: [ 教程, python]
 date: 2023-03-27
 lastmod: 2023-03-28 
-slug: 20230327222108
+slug: oyxl3c0
 thumbnail: 
 published: "true"
 ---
@@ -343,5 +343,8 @@ df4.replace('key_','',regex=True).sort_values('data1').reset_index().drop('index
 结果：
 
 ![image.png|200](https://s1.vika.cn/space/2023/03/28/86c13b79c1b74f2da0a0934fa2e55a6b)
+
+
+)
 
 
