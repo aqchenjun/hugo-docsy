@@ -1,7 +1,7 @@
 ---
 categories: HTML、CSS和JavaScript
 title: 使用图标Font Awesome
-tags: [教程,html]
+tags: [教程,前端,html]
 date: 2023-03-31
 lastmod: 2023-03-31
 thumbnail: https://s1.vika.cn/space/2023/03/31/0fe74b1f78324806a8022bd24a71a65d

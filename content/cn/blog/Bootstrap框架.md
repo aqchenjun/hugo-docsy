@@ -32,7 +32,7 @@ slug: xeljerv
 </div>
 ```
 
-{{% alert title=]+ 注释 color=success %}} 上述代码中，第2行 align-items-center 定义子标签 .col-2 的垂直对齐方式，第4行 align-items-center 定义 “显示内容” 的垂直对齐方式。  
+{{% alert title=注释 color=success %}} 上述代码中，第2行 align-items-center 定义子标签 .col-2 的垂直对齐方式，第4行 align-items-center 定义 “显示内容” 的垂直对齐方式。  
 
  {{% /alert %}}### 1.3 自身垂直对齐  
 
@@ -47,7 +47,7 @@ slug: xeljerv
 </div>
 ```  
 
-{{% alert title=]+ 注释 color=success %}} 上述代码中，第1行的 align-items-center 定义了子标签的垂直对齐方式，当第二个子标签 .col-2 有 align-self-start，因此，第一个和第三个 div 按照 align-items-center 来显示，而第二个 div 则按照 align-self-start 显示。
+{{% alert title=注释 color=success %}} 上述代码中，第1行的 align-items-center 定义了子标签的垂直对齐方式，当第二个子标签 .col-2 有 align-self-start，因此，第一个和第三个 div 按照 align-items-center 来显示，而第二个 div 则按照 align-self-start 显示。
  align-items- 和 align-self- 的区别：align-items- 可以对子标签统一进行批量设置，而 align-self- 只能对单个标签进行设置。  
 
  {{% /alert %}}### 1.4 水平对齐  
@@ -83,7 +83,7 @@ slug: xeljerv
 </div>
 ```  
 
-{{% alert title=]+ 注释 color=success %}} flex-column 的作用是将本来水平排列的标签转为垂直排列。  
+{{% alert title=注释 color=success %}} flex-column 的作用是将本来水平排列的标签转为垂直排列。  
 
  {{% /alert %}}## 2 关于折叠  
 
