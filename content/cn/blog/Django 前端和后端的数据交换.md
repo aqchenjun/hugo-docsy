@@ -203,10 +203,12 @@ idlist = json.loads(idlist)
 
 
 
-{{% alert title=注意 color='success' %}}
+{{% alert title=注意 color=success %}}
 ajax 发送 post 请求时，解决 csrf 报错的方法：
 
 {{% /alert %}}
+
+
 1. 第一步：在body标签中添加：
    `{% csrf_token %}`
    
