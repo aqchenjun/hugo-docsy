@@ -1,5 +1,5 @@
 ---
-categories: HTML 、CSS和JavaScript
+categories: HTML、CSS和JavaScript
 title: HTML 的特殊符号
 tags: [教程,html]
 date: 2023-03-31

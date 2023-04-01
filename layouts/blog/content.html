@@ -13,11 +13,17 @@
 			{{ partial "reading-time.html" . }}
 		{{ end }}
 	</header>	
-	{{ .Content }}
-	{{ if (.Site.Params.DisqusShortname) }}
+	{{ .Content }}	
+	{{ if .Site.Params.valine.enable }}  
+		<br />
+		{{ partial "valine-comment.html" . }}
+		<br />
+	{{ end }}
+
+	<!-- {{ if (.Site.Params.DisqusShortname) }}
 		<br />
 		{{ partial "disqus-comment.html" . }}
 		<br />
-	{{ end }}
+	{{ end }} -->
 	{{ partial "pager.html" . }}	
 </div>

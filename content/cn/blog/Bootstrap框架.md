@@ -1,5 +1,5 @@
 ---
-categories: HTML 、CSS和JavaScript
+categories: HTML、CSS和JavaScript
 title: Bootstrap框架
 tags: [教程,前端,bootstrap]
 date: 2023-03-31

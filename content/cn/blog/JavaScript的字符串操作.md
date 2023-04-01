@@ -1,5 +1,5 @@
 ---
-categories: HTML 、CSS和JavaScript
+categories: HTML、CSS和JavaScript
 title: JavaScript的字符串操作
 tags: [教程,前端,javascript]
 date: 2023-03-31

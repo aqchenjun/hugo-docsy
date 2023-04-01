@@ -1,5 +1,5 @@
 ---
-categories: HTML 、CSS和JavaScript
+categories: HTML、CSS和JavaScript
 title: HTML 颜色名称及代码
 tags: [教程,html]
 date: 2023-03-31
