@@ -20,6 +20,18 @@
 		<br />
 	{{ end }}
 
+	{{ if .Site.Params.waline.enable }}  
+		<br />
+		{{ partial "waline-comment.html" . }}
+		<br />
+	{{ end }}
+
+	{{ if .Site.Params.twikoo.enable }}  
+		<br />
+		{{ partial "twikoo-comment.html" . }}
+		<br />
+	{{ end }}
+
 	<!-- {{ if (.Site.Params.DisqusShortname) }}
 		<br />
 		{{ partial "disqus-comment.html" . }}

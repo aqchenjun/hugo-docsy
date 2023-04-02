@@ -239,7 +239,7 @@ enable = false
 
 
 [params.valine]
-  enable = true
+  enable = false
   appId = 'ipAdWtnGvWI2rZ0FLMCmTl6B-MdYXbMMI'
   appKey = 'MSJdeaOibp7cOzKF1bQJYRad'
   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
@@ -247,3 +247,10 @@ enable = false
   avatar = 'mm'
   placeholder = '说点什么吧...'
   visitor = true
+
+[params.waline]
+  enable = false
+
+[params.twikoo]
+  enable = true
+  
