@@ -3,8 +3,8 @@ categories: Django
 title: Django BootstrapTable
 tags: [教程,Python]
 date: 2023-03-28
-lastmod: 2023-03-30 
-slug: 7vriny2
+lastmod: 2023-04-11
+slug: b6axasu
 thumbnail:  
 published: "true"
 ---
@@ -659,4 +659,4 @@ queryParams:function(params){
 
 1. 标签form中的button，即使没有设置type="submit"，点击后，还是默认提交数据至当前路由（原因不清楚），因此为避免不可预见情况发生，将button标签改为a 标签。
 
-2. datetimepicker控件传给后端的日期数据格式为字符串，而Django Model中数据类型为DateField，为方便二者比较，必须用 `datetime.strptime(createdbefore,'%Y-%m-%d').date()`语句将日期字符串转换为日期。�期。
+2. datetimepicker控件传给后端的日期数据格式为字符串，而Django Model中数据类型为DateField，为方便二者比较，必须用 `datetime.strptime(createdbefore,'%Y-%m-%d').date()`语句将日期字符串转换为日期。
