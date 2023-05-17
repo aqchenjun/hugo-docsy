@@ -1,9 +1,9 @@
 ---
 categories: JavaScript 入门到精通
-title: web APIs 第一天(DOM获取及属性操作)
+title: web APIs：DOM获取及属性操作
 tags: [教程,JavaScript]
 date: 2023-05-04
-lastmod: 2023-05-04
+lastmod: 2023-05-16
 thumbnail: https://s1.vika.cn/space/2023/05/04/8528539db9f7494898a3c89ae22910c2
 published: "true"
 slug: qtsfu9r
@@ -68,7 +68,32 @@ DOM（Document Object Model）是将整个 HTML 文档的每一个标签元素�
 
 1. `document.querySelector()`   满足条件的第一个元素
 
-2. `document.querySelectorAll()`  满足条件的元素集合，返回伪数组
+2. `document.querySelectorAll()`  满足条件的元素集合，返回伪数组。该数组可以遍历。
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>  
+</head>
+<body>
+  <ul>
+    <li class="item">1</li>
+    <li class="item">2</li>
+    <li class="item">3</li>
+  </ul>
+  <script>
+    const lis = document.querySelectorAll('.item')  
+    console.log(lis)
+    for (let i = 0; i < lis.length; i++) {
+      lis[i].style.color = 'red'
+    }
+  </script>
+</body>
+</html>
+```
   
 
 ## 4 操作元素内容

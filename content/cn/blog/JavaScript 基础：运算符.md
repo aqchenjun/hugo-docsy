@@ -1,9 +1,9 @@
 ---
 categories: JavaScript 入门到精通
-title: JavaScript 基础第二天
+title: JavaScript 基础：运算符
 tags: [教程,JavaScript]
 date: 2023-04-21
-lastmod: 2023-04-21
+lastmod: 2023-05-16
 thumbnail: 
 published: "true"
 slug: 3zbt9kj
@@ -85,6 +85,6 @@ switch (表达式) {
 ```
 
 >[!note]+ 注意
->1.  switch case语句一般用于等值判断, if适合于区间判断
->2.  switchcase一般需要配合break关键字使用，没有break会造成case穿透
+>1.  switch case语句一般用于等值判断,必须是全等(\=\=\=)，if适合于区间判断
+>2.  switch case一般需要配合break关键字使用，没有break会造成case穿透
 >3.  if 多分支语句开发要比switch更重要，使用也更多

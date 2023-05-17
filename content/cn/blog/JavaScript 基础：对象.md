@@ -1,9 +1,9 @@
 ---
 categories: JavaScript 入门到精通
-title: JavaScript 基础第五天(对象)
+title: JavaScript 基础：对象
 tags: [教程,JavaScript]
 date: 2023-04-29
-lastmod: 2023-04-29
+lastmod: 2023-05-16
 thumbnail: 
 published: "true"
 slug: hzc9o4f

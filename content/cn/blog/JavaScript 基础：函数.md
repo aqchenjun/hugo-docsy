@@ -1,9 +1,9 @@
 ---
 categories: JavaScript 入门到精通
-title: JavaScript 基础第四天(函数)
+title: JavaScript 基础：函数
 tags: [教程,JavsScript]
 date: 2023-04-25
-lastmod: 2023-04-25
+lastmod: 2023-05-16
 thumbnail: 
 published: "true"
 slug: ywuv1iu
@@ -50,8 +50,9 @@ v2 = fu(x,y)[1];
 ** 匿名函数
 *** 函数表达式
 **** 将匿名函数赋值给一个变量，通过变量名称调用
-*** 自执行函数
-**** (function fu(形参){函数语句})(实参)
-**** 多个立即执行函数之间用分号隔开
+*** 立即执行函数
+**** (function(形参){函数语句})(实参);,(function(){函数语句})();
+**** 立即执行函数用分号结尾
+**** 立即执行函数可以避免变量污染
 @endmindmap
 ```

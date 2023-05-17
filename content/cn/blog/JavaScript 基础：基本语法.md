@@ -1,9 +1,9 @@
 ---
 categories: JavaScript 入门到精通
-title: JavaScript 基础(第一天)
+title: JavaScript 基础语法
 tags: [教程,JavaScript]
 date: 2023-04-14
-lastmod: 2023-04-14
+lastmod: 2023-05-16
 thumbnail: 
 published: "true"
 slug: zfwc2mp

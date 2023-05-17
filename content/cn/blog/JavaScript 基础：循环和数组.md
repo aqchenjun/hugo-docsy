@@ -1,9 +1,9 @@
 ---
 categories: JavaScript 入门到精通
-title: JavaScript 基础第三天
+title: JavaScript 基础：循环和数组
 tags: [教程,JavsScript]
 date: 2023-04-23
-lastmod: 2023-04-25
+lastmod: 2023-05-16
 thumbnail: 
 published: "true"
 slug: 78uvc7u
